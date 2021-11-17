@@ -1,0 +1,29 @@
+[
+    {
+        "model": "chains.chain",
+        "pk": 122,
+        "fields": {
+            "relevance": 100,
+            "name": "Fuse",
+            "short_name": "fuse",
+            "description": "Fuse.io network",
+            "l2": true,
+            "rpc_authentication": "NO_AUTHENTICATION",
+            "rpc_uri": "https://rpc.fuse.io",
+            "safe_apps_rpc_authentication": "NO_AUTHENTICATION",
+            "safe_apps_rpc_uri": "https://rpc.fuse.io",
+            "block_explorer_uri_address_template": "https://explorer.fuse.io/address/{{address}}",
+            "block_explorer_uri_tx_hash_template": "https://explorer.fuse.io/tx/{{txHash}}",
+            "currency_name": "Fuse",
+            "currency_symbol": "FUSE",
+            "currency_decimals": 18,
+            "currency_logo_uri": "chains/122/currency_logo.jpg",
+            "transaction_service_uri": "http://nginx:8000/txs",
+            "vpc_transaction_service_uri": "http://nginx:8000/txs",
+            "theme_text_color": "#0d004d",
+            "theme_background_color": "#a3eb71",
+            "ens_registry_address": null,
+            "recommended_master_copy_version": "1.3.0"
+        }
+    }
+]

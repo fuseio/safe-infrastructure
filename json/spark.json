@@ -1,0 +1,29 @@
+[
+    {
+        "model": "chains.chain",
+        "pk": 123,
+        "fields": {
+            "relevance": 100,
+            "name": "FuseSpark",
+            "short_name": "spark",
+            "description": "Testnet for fuse.io",
+            "l2": true,
+            "rpc_authentication": "NO_AUTHENTICATION",
+            "rpc_uri": "https://rpc.fusespark.io",
+            "safe_apps_rpc_authentication": "NO_AUTHENTICATION",
+            "safe_apps_rpc_uri": "https://rpc.fusespark.io",
+            "block_explorer_uri_address_template": "https://explorer.fusespark.io/address/{{address}}",
+            "block_explorer_uri_tx_hash_template": "https://explorer.fusespark.io/tx/{{txHash}}",
+            "currency_name": "Spark",
+            "currency_symbol": "SPARK",
+            "currency_decimals": 18,
+            "currency_logo_uri": "chains/123/currency_logo.jpg",
+            "transaction_service_uri": "http://nginx:8000/txs",
+            "vpc_transaction_service_uri": "http://nginx:8000/txs",
+            "theme_text_color": "#0d004d",
+            "theme_background_color": "#a3eb71",
+            "ens_registry_address": null,
+            "recommended_master_copy_version": "1.3.0"
+        }
+    }
+]
